@@ -11,10 +11,10 @@ public class ConfigurationReader {
     static{
 
         try {
-            // 2- We need to open the file in java memory : FileInputStream
+
             FileInputStream file= new FileInputStream("configuration.properties ");
 
-            //3-load the properties object using fileinputStream object
+
             properties.load(file);
             //close the file
             file.close();

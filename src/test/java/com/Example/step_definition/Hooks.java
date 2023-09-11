@@ -26,7 +26,7 @@ public class Hooks {
     public void teardownScenario(Scenario scenario){
 
         if(scenario.isFailed()) {
-            byte[] screenshot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
+            byte[] screenshot = ((TakesScreenshot) com.Example.utilities.Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
             scenario.attach(screenshot, "image/png", scenario.getName());
         }
         //System.out.println("==== Closing the browser using Cucumber @After");
