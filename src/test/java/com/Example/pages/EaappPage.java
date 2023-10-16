@@ -57,12 +57,6 @@ public class EaappPage {
   @FindBy (xpath ="/html/body/div[2]/table/tbody/tr")
   public WebElement tableId;
 
-  // @FindBy(xpath = "(//a[.='About'])[1]")
-   // public WebElement about;
-
-
-   // @FindBy(xpath = "//a[@id='hs-eu-decline-button']")
-  //  public WebElement cookies;
 
 
 }

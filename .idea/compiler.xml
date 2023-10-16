@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Dilekk" />
+        <module name="BOOTFLOW" />
+        <module name="bootflow" />
       </profile>
     </annotationProcessing>
   </component>
